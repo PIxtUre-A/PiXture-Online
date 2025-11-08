@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>เว็บของเรา</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #fafafa;
+        }
+
+        nav {
+            background: #007bff;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #ff7575, #ffb199);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 50px;
+        }
+
+        header button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            background: #ffffff;
+            color: #ff5555;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MyWebsite</div>
+        <ul>
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">เกี่ยวกับ</a></li>
+            <li><a href="#">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>ยินดีต้อนรับ 🎉</h1>
+        <p>เว็บนี้เขียนด้วยไฟล์เดียว!</p>
+        <button onclick="showMsg()">กดฉัน!</button>
+    </header>
+
+    <section class="content">
+        <h2>เนื้อหาเว็บไซต์</h2>
+        <p>นี่คือเว็บที่ทำด้วยไฟล์เดียว ง่ายมาก</p>
+    </section>
+
+    <script>
+        function showMsg() {
+            alert("ปุ่มทำงานแล้วค้าบบบ 😎✨");
+        }
+    </script>
+
+</body>
+</html>
